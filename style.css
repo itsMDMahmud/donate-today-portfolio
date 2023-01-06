@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+/* @font-face {
+    font-family: 'Open Sans', sans-serif;
+
+} */
+.header{
+    background: linear-gradient(to top, #1d2424, #44a08d00), url(./images/armydonation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+     
+}
+.headline{
+    font-size: 62px;
+    color: white;
+    text-align: center;
+    margin: 100px 300px 10px;
+}
+.description{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 30px 300px 50px;
+}
+.donate-button{
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+    background-color: #eb4d4b;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+.second-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.donate-today{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.seconddescription{
+    color: rgb(60, 71, 78);
+    font-size: 20px;
+    text-align: center;
+    margin: 30px 300px 50px;
+}
+.unorderedlist{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+.twohundredtk{
+    height: 120px;
+    width: 120px;
+    background-color: #e497946c;;
+    margin: 10px;
+    display: flex;
+    text-align: center;
+    padding: 40px;
+    padding-left: 15px;
+    border: 2px solid;
+    border-color: #eb4d4b;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #eb4d4b;
+}
+.hundredtk{
+    height: 120px;
+    width: 120px;
+    background-color: #e497941c;
+    margin: 10px;
+    text-align: center;
+    padding: 40px;
+    padding-left: 15px;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #352323;
+    border: none;
+    margin-bottom: 50px;
+}
+.amount-donate{
+    width: 700px;
+    height: 40px;
+    margin-bottom: 25px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    border-bottom: 1px solid;
+    color: #1921279c;
+}
+.ottdivs{
+    display: flex;justify-content: center;
+    margin-bottom: 120px;
+}
+.onetwothree{
+    width: 300px;
+    height: 333px;
+    margin-left: 20px;
+    padding: 50px 20px;
+}
+.foodsheltereducation{
+    margin-bottom: 20px;
+}
+.fourth-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 150px 175px 150px;
+}
+.fourth-div-left{
+    align-items: center;
+    width: 500px;
+}
+.tldoyd{
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.fourth-p-one{
+    margin-bottom: 30px;
+    line-height: 1.5rem;
+}
+.fourth-p-two{
+    margin-bottom: 50px;
+    line-height: 1.5rem;
+}
+#donate-button{
+    font-size: 20px;
+    height: 50px;
+    width: 220px;
+    background-color: #eb4d4b;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+.fifth-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.fifth-section div{
+    height: 200px;
+    width: 700px;
+    background-color: #f7d89456;
+    margin-bottom: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 125px;
+}
+.email-div{ 
+
+}
+.email-input{
+    background-color: rgba(128, 128, 128, 0.329);
+    border: none;
+    height: 50px;
+    width: 300px;
+    padding-left: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.footer{
+    background-color: #192127;
+    height: 150px;
+    font-family: "open sans";
+    color: #eb4d4b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.footer h3{
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.footer p{
+    color: aliceblue;
+}
